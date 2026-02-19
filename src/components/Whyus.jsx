@@ -1,5 +1,5 @@
-// WhyUs.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function WhyUs() {
   const challenges = [
@@ -162,8 +162,8 @@ export default function WhyUs() {
 
           {/* Final CTA */}
           <div className="mt-20 lg:mt-28 text-center">
+            <Link to ="contact">
             <a
-              href="#contact"
               className="
                 inline-flex items-center gap-4 px-10 py-6 
                 bg-gradient-to-r from-indigo-600 to-indigo-700 
@@ -178,6 +178,7 @@ export default function WhyUs() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </a>
+            </Link>
           </div>
         </div>
       </section>

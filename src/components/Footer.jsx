@@ -56,27 +56,15 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div>
-              <h3 className="text-gray-700 font-semibold mb-5 uppercase tracking-wide text-sm">
-                Services
-              </h3>
-              <ul className="space-y-3 text-gray-600">
-                <li><a href="/brand-strategy" className="hover:text-indigo-700 transition">Brand Strategy</a></li>
-                <li><a href="/digital-marketing" className="hover:text-indigo-700 transition">Digital Marketing</a></li>
-                <li><a href="/motion-design" className="hover:text-indigo-700 transition">Motion & Video</a></li>
-                <li><a href="/web-development" className="hover:text-indigo-700 transition">Web & UI/UX</a></li>
-              </ul>
-            </div>
-
             <div className="col-span-2 sm:col-span-1">
               <h3 className="text-gray-700 font-semibold mb-5 uppercase tracking-wide text-sm">
                 Connect
               </h3>
               <ul className="space-y-3 text-gray-600">
-                <li><a href="mailto:hello@amayamarketing.com" className="hover:text-indigo-700 transition">Email Us</a></li>
-                <li><a href="https://t.me/amayamarketing" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-700 transition">Telegram</a></li>
-                <li><a href="tel:+251911234567" className="hover:text-indigo-700 transition">Call Us</a></li>
-                <li><a href="/contact" className="hover:text-indigo-700 transition">Contact Page</a></li>
+                <li><a href="mailto:hello@amayamarketing.com" className="text-white hover:text-indigo-700 transition">Email Us</a></li>
+                <li><a href="https://t.me/amayamarketing" target="_blank" rel="noopener noreferrer" className="text-white hover:text-indigo-700 transition">Telegram</a></li>
+                <li><a href="tel:+251911234567" className="text-white hover:text-indigo-700 transition">Call Us</a></li>
+                <li><a href="/contact" className="text-white hover:text-indigo-700 transition">Contact Page</a></li>
               </ul>
             </div>
 

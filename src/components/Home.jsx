@@ -1,5 +1,6 @@
 import React from 'react';
 import heroImage from '../assets/hero5.png';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   // Featured video data
@@ -61,8 +62,8 @@ export default function Home() {
 
             <div className="flex flex-col sm:flex-row gap-4 md:gap-5 justify-center md:justify-start pt-1 md:pt-2">
               {/* Primary CTA */}
+              <Link to="/contact">
               <a
-                href="#contact"
                 className="
                   group relative inline-flex items-center justify-center 
                   px-5 py-3 sm:px-6 sm:py-3.5 md:px-7 md:py-4 
@@ -73,7 +74,7 @@ export default function Home() {
                 "
               >
                 <span className="flex items-center gap-2.5">
-                  Get Your Free Strategy Call
+                  Get in touch here
                   <svg 
                     className="w-5 h-5 sm:w-5 sm:h-5 md:w-6 md:h-6 group-hover:rotate-12 transition-transform" 
                     fill="none" 
@@ -83,7 +84,8 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
                 </span>
-              </a>              
+              </a>  
+              </Link>            
             </div>
           </div>
         </div>
