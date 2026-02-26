@@ -118,7 +118,7 @@ export default function About() {
                 <p className="text-lg text-gray-700 leading-relaxed">
                   Bole Sub-City<br />
                   Addis Ababa, Ethiopia<br /><br />
-                  Email: <a href="mailto:hello@amayamarketing.com" className="text-indigo-600 hover:text-indigo-800 transition-colors">amayamarketing@gmail.com</a><br />
+                  Email: <a href="mailto:amayamarketing2@gmail.com" className="text-indigo-600 hover:text-indigo-800 transition-colors">amayamarketing2@gmail.com</a><br />
                   Phone: <a href="tel:+251955159947" className="text-indigo-600 hover:text-indigo-800 transition-colors">+251955159947</a>
                 </p>
               </div>

@@ -3,7 +3,6 @@ import heroImage from '../assets/hero5.png';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
-  // Featured video data
   const featuredVideo = {
     title: "Amaya Founder: How Amaya Helps Businesses Grow",
     date: "February 15, 2026",
@@ -153,22 +152,6 @@ export default function Home() {
               {featuredVideo.description}
             </p>
 
-            {/* Quick actions */}
-            <div className="mt-8 flex flex-wrap gap-4">
-              <button className="
-                inline-flex items-center gap-2 px-6 py-3 
-                bg-indigo-600 hover:bg-indigo-700 
-                text-white font-medium rounded-xl 
-                shadow-md hover:shadow-lg hover:shadow-indigo-300/30 
-                transform hover:-translate-y-0.5 
-                transition-all duration-300
-              ">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
-                </svg>
-                Share Video
-              </button>
-            </div>
           </div>
 
           {/* Related Videos Teaser */}
@@ -220,7 +203,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Optional subtle footer gradient */}
       <div className="h-24 bg-gradient-to-b from-gray-50 to-white" />
     </main>
   );

@@ -1,6 +1,7 @@
 // Footer.jsx
 import React from 'react';
 import amayaLogo from '../assets/amaya_logo.jpg'; // ← reuse your logo
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -50,9 +51,9 @@ export default function Footer() {
                 Company
               </h3>
               <ul className="space-y-3 text-gray-600">
-                <li><a href="/about" className="text-white underline decoration-blue-500">About Us</a></li>
-                <li><a href="/team" className="text-white underline decoration-blue-500">Our Team</a></li>
-                <li><a href="/careers" className="text-white underline decoration-blue-500">Careers</a></li>
+                <li><a href="/about" className="text-blue-500 hover:text-white">About Us</a></li>
+                <li><a href="/team" className="text-blue-500 hover:text-white">Our Team</a></li>
+                <li><a href="/careers" className="text-blue-500 hover:text-white">Careers</a></li>
               </ul>
             </div>
 
@@ -61,10 +62,9 @@ export default function Footer() {
                 Connect
               </h3>
               <ul className="space-y-3 text-gray-600">
-                <li><a href="mailto:hello@amayamarketing.com" className="text-white hover:text-indigo-700 transition">Email Us</a></li>
-                <li><a href="https://t.me/amayamarketing" target="_blank" rel="noopener noreferrer" className="text-white hover:text-indigo-700 transition">Telegram</a></li>
-                <li><a href="tel:+251911234567" className="text-white hover:text-indigo-700 transition">Call Us</a></li>
-                <li><a href="/contact" className="text-white hover:text-indigo-700 transition">Contact Page</a></li>
+                <li><a href="mailto:amayamarketing2@gmail.com" className="text-blue-500 hover:text-white transition">Email Us</a></li>
+                <li><a href="https://t.me/amayamarketing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-white transition">Telegram</a></li>
+                <li><Link to="contact"><a className="text-blue-500 hover:text-white transition">Contact Page</a></Link></li>
               </ul>
             </div>
 
@@ -81,8 +81,8 @@ export default function Footer() {
             © {new Date().getFullYear()} Amaya Marketing. All rights reserved.
           </div>
           <div className="flex gap-6">
-            <a href="/privacy" className="hover:text-indigo-700 transition">Privacy Policy</a>
-            <a href="/terms" className="hover:text-indigo-700 transition">Terms of Service</a>
+            <a  className="hover:text-indigo-700 transition">Privacy Policy</a>
+            <a  className="hover:text-indigo-700 transition">Terms of Service</a>
           </div>
         </div>
 

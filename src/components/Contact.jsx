@@ -142,7 +142,7 @@ export default function Contact() {
                 <SocialMedia link ="https://tiktok.com/@amayamarketing" d="M12.75 2h2.5a5 5 0 004.75 4.75v2.5a7.5 7.5 0 01-4.75-1.7v7.45a6 6 0 11-6-6c.17 0 .34.01.5.03v2.54a3.5 3.5 0 103.5 3.43V2z"/>
             
                      {/* Email */}
-                <SocialMedia link ="mailto:hello@amayamarketing.com" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" id="email"/>
+                <SocialMedia link ="mailto:amayamarketing2@gmail.com" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" id="email"/>
                  
                         
               </div>
